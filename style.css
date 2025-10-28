@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 4vw;
+  margin-left: 10vw;
+  margin-top: 7vw;
+
+}
+
+.about {
+  width: 50vw;
+  font-size: 1.9vw;
+}
+
+.kameraman-1 {
+  width: 25vw;
+  height: 25vw;
+  margin-left: 5vw;
+  margin-top: 3vw;
+}
+
+.kameraman-2 {
+  width: 15vw;
+  height: 15vw;
+  margin-top: 3vw;
+
+}
+
+.time-p {
+  width: 13vw;
+  font-size: 1.5vw;
+}
+
+.time {
+  display: flex;
+  gap: 6vw;
+  margin-top: 9vw;
+  margin-left: 5vw;
+  margin-bottom: 5vw;
+}
+
+
+
+.one,
+.two {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  margin-left: 10vw;
+
+}
+@media (max-width: 1400px) and (min-width: 830px){
+  .kameraman-2 {
+  display: none ;
+
+}
+.two {
+
+  margin-left: 5vw;
+}
+}
+@media (max-width: 830px) and (min-width: 375px){
+ .kameraman-2 {
+  display: none ;
+
+}
+h1{
+  font-size: 7vw;
+}
+.one {
+  display: inline;
+}
+.about {
+  width: 80vw;
+  font-size: 3.2vw;
+  margin-left: 10vw;
+}
+.kameraman-1{
+    width: 35vw;
+    height: 35vw;
+    margin-left: 29vw;
+    margin-top: 3vw;
+
+}
+
+  .time{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 0vw;
+  }
+  h2{
+    font-size: 3vw;
+  }
+  .time-p {
+  width: 26vw;
+  font-size: 3vw;
+}
+}
